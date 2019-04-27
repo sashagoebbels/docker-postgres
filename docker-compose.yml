@@ -18,7 +18,7 @@ services:
     volumes:
       - ./pgadmin:/var/lib/pgadmin
     environment:
-      - PGADMIN_DEFAULT_EMAIL=vmg@arachnion.de
+      - PGADMIN_DEFAULT_EMAIL=test@test.com
       - PGADMIN_DEFAULT_PASSWORD=CHANGEME
     ports:
       - 80:80
